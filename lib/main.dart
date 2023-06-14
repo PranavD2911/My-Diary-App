@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:my_dairy_app/models/locale.dart';
-import 'my_tab_bar_view.dart';
+import 'package:my_dairy_app/screens/splash_screen.dart';
 
 void main() async{
   await GetStorage.init();
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
 
       ),
       debugShowCheckedModeBanner: false,
-      home: const DairyTabBarView(),
+      home: const SplashScreen(),
       translations: Locales(),
       locale: const Locale("en","US"),
     );
