@@ -1,10 +1,17 @@
-# my_dairy_app
+# My-Diary-App
 
 A new Flutter project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+In this project we learn about the: 
+1. GetX 
+2. Storage 
+3. Locale 
+4. Splash Screen
+5. And some basic
+
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -14,3 +21,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Tip:- At some point there may be "dairy" instead of "diary" please check it and correct it.
